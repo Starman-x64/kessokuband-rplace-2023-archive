@@ -3,7 +3,7 @@ name: Onceuponaban
 aliases:
   - Onceuponaban
 factions:
-  - "[[VTubers Place]]"
+  - "[[factions/VTubers Place|VTubers Place]]"
 reddit: 
 discord: "@onceuponaban"
 ---

@@ -1,7 +1,11 @@
-![[archive-banner.png]]
+---
+parents: 
+tags: 
+---
+![[media/archive-banner.png]]
 
 # Chronicles of the Kessoku Krusade
-[[timeline|timeline]]
+[[timeline]]
 
 ## Key Terms
 - Kessokuband - BtR sub faction composed of Kessokucord and r/kessokuband members.
@@ -22,7 +26,7 @@
 	- `event` is the name of the event file the image is included in (`YYYY-MM-DD hh-mm n`)
 	- `title` is an optional short description of the image, replacing spaces with hyphens.
 		- If the image already has a name, then `title` should be this name wrapped in **single** quotes (`'`). E.g., `'bad_enlistment_poster_1'`
-	- Examples: 
+	- Examples:
 		- `2023-07-20 03-49_diplomacy-is-dank`
 		- `2023-07-20 05-37_'bad_enlistment_poster_1'`
 - Screenshots should be PNG files.

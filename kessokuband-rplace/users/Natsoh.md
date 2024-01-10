@@ -2,7 +2,8 @@
 name: Natsoh
 aliases:
   - Natsoh
-factions: 
+factions:
+  - "[[Kessoku Band]]"
 reddit: 
 discord: "@natsohkr"
 ---
