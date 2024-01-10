@@ -9,4 +9,5 @@ factions:
 reddit: 
 discord: "@⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻#2927"
 tags:
+  - "#user"
 ---

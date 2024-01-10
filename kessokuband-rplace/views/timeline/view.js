@@ -54,9 +54,7 @@ function mdImageToHTMLImage(mdImage) {
   let style = mdImage.match(/\|\d+/gs);
   let styleString = "";
   if (style) {
-    if(style.length > 0) {
-      styleString = `style="width:${style[0]};`;
-    }
+    styleString = `style="width:${style[0].slice(1)}px;"`;
   }
   return mdImage.replace(/!\[\[/gs, `<img src="${this.app.vault.adapter.basePath}\\`).replace(/\]\]/gs, `" ${styleString} />`).replace(/\|\d+/gs, "");
 }

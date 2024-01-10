@@ -4,7 +4,8 @@ aliases:
   - United Gatcha Alliance
   - UGA
 subreddit: 
-discord: 
+discord server: 
 tags:
+  - "#faction"
 ---
 # Relations

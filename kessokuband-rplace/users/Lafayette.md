@@ -7,5 +7,6 @@ factions:
 reddit: 
 discord: (deleted)
 tags:
-  - "#discord-deleted"
+  - "#user"
+  - discord-deleted
 ---

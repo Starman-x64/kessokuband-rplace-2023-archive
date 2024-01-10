@@ -8,4 +8,5 @@ factions:
 reddit: 
 discord: "@mem.cho."
 tags:
+  - "#user"
 ---

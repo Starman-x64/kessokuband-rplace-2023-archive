@@ -4,7 +4,8 @@ aliases:
   - Netherlands
   - the Netherlands
 subreddit: 
-discord: 
+discord server: 
 tags:
+  - "#faction"
 ---
 # Relations

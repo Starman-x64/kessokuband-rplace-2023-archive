@@ -8,4 +8,5 @@ factions:
 reddit: 
 discord: "@battledroid3.0#7522"
 tags:
+  - "#user"
 ---

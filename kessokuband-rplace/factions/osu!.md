@@ -3,7 +3,8 @@ name: osu!
 aliases:
   - osu!
 subreddit: 
-discord: https://discord.osu.place/
+discord server: https://discord.osu.place/
 tags:
+  - "#faction"
 ---
 # Relations

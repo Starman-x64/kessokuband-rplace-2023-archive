@@ -8,4 +8,5 @@ factions:
 reddit: 
 discord: "@theangelofshimokitazawa"
 tags:
+  - "#user"
 ---

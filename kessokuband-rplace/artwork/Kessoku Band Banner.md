@@ -13,6 +13,7 @@ final coordinates: (630, -358)
 atlas link: https://2023.place-atlas.stefanocoding.me/#355/T
 on final canvas: true
 tags:
+  - "#artwork"
 ---
 ## Description
 

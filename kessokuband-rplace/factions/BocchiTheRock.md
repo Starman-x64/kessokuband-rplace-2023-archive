@@ -5,7 +5,8 @@ aliases:
   - r/BocchiTheRock
   - BtR
 subreddit: r/BocchiTheRock
-discord: 
+discord server: 
 tags:
+  - "#faction"
 ---
 # Relations

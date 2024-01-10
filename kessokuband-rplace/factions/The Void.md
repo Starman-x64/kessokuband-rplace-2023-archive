@@ -4,7 +4,8 @@ aliases:
   - The Void
   - Void
 subreddit: 
-discord: 
+discord server: 
 tags:
+  - "#faction"
 ---
 # Relations

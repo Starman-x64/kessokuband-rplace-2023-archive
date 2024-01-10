@@ -3,8 +3,9 @@ name: VTubers Place
 aliases:
   - VTubers Place
 subreddit: 
-discord: https://discord.gg/vtubersplace
+discord server: https://discord.gg/vtubersplace
 tags:
+  - "#faction"
 ---
 # Relations
 ## [[factions/Kessoku Band]]

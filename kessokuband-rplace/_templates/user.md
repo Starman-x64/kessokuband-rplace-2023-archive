@@ -6,4 +6,5 @@ factions:
 reddit: 
 discord: 
 tags:
+  - "#user"
 ---

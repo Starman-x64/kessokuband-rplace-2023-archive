@@ -9,4 +9,5 @@ factions:
 reddit: u/Idz4gqbi
 discord: "@red_hare"
 tags:
+  - "#user"
 ---

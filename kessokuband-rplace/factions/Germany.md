@@ -5,7 +5,8 @@ aliases:
   - German
   - Germans
 subreddit: 
-discord: 
+discord server: 
 tags:
+  - "#faction"
 ---
 # Relations

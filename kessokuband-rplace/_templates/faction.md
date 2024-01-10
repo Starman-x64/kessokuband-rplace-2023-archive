@@ -5,5 +5,6 @@ aliases:
 subreddit: 
 discord: 
 tags:
+  - "#faction"
 ---
 # Relations

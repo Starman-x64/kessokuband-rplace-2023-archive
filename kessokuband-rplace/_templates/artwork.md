@@ -9,6 +9,7 @@ final coordinates:
 atlas link: 
 on final canvas: 
 tags:
+  - "#artwork"
 ---
 ## Description
 

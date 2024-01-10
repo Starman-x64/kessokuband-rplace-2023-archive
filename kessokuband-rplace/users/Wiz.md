@@ -8,4 +8,5 @@ factions:
 reddit: 
 discord: "@wiz_desu"
 tags:
+  - "#user"
 ---

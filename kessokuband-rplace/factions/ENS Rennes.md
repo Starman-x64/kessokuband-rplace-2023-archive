@@ -4,7 +4,8 @@ aliases:
   - ENS Rennes
   - ENS
 subreddit: 
-discord: 
+discord server: 
 tags:
+  - "#faction"
 ---
 # Relations

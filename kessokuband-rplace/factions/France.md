@@ -4,7 +4,8 @@ aliases:
   - France
   - French
 subreddit: 
-discord: 
+discord server: 
 tags:
+  - "#faction"
 ---
 # Relations
