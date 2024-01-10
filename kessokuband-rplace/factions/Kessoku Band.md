@@ -9,8 +9,8 @@ tags:
   - "#faction"
 ---
 # Relations
-## [[factions/VTubers Place]]
-- [[events/2023-07-20 12-31 1]]: First interaction
 
-## [[factions/United Gatcha Alliance]]
-- [[events/2023-07-20 12-38 1]]
+# Artwork
+```dataviewjs
+await dv.view("views/faction artworks", { limit: -1, thisFilePath: this.currentFilePath });
+```

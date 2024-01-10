@@ -59,6 +59,17 @@ function mdImageToHTMLImage(mdImage) {
   return mdImage.replace(/!\[\[/gs, `<img src="${this.app.vault.adapter.basePath}\\`).replace(/\]\]/gs, `" ${styleString} />`).replace(/\|\d+/gs, "");
 }
 
+function replaceMdImages(content) {
+  let mdImages = content.match(/!\[\[.+\]\]/gs);
+  if (mdImages) {
+    let htmlImages = mdImages.map(img => mdImageToHTMLImage(img));
+    for (let i = 0; i < mdImages.length; i++) {
+      content = content.replace(mdImages[i], htmlImages[i]);
+    }
+  }
+  return content;
+}
+
 function removeFrontMatter(content) {
   return content.replace(/---.+---\s/s, "")
 }
@@ -103,13 +114,7 @@ function removeFrontMatter(content) {
 
 				Object.entries(events).forEach(([index, event]) => {
 					let content = removeFrontMatter(event.content);
-					let mdImages = content.match(/!\[\[.+\]\]/gs);
-					if (mdImages) {
-						let htmlImages = mdImages.map(img => mdImageToHTMLImage(img));
-						for (let i = 0; i < mdImages.length; i++) {
-							content = content.replace(mdImages[i], htmlImages[i]);
-						}
-					}
+					content = replaceMdImages(content);
 
 					let eventDiv = dv.el("div", "");
           eventDiv.style.borderLeft = "solid 4px var(--link-color)";

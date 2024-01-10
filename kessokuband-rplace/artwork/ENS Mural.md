@@ -3,7 +3,7 @@ name: ENS Mural
 aliases:
   - ENS Mural
 parent factions:
-  - "[[factions/ENS Rennes|ENS]]"
+  - "[[factions/ENS Rennes|ENS Rennes]]"
 authors: 
 final version: 
 final coordinates: (667, -353)
