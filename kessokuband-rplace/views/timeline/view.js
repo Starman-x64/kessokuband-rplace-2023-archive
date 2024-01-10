@@ -1,12 +1,24 @@
 let pages = dv.pages('"events"');
 let timelineData = {};
 const limit = input.limit < 0 ? pages.length : input.limit;
+const utcOffset = input.utcOffset ? input.utcOffset : 0;
+
+function shiftDateToTimeZone(dateString, timeString, utcOffset = 0) {
+  let utcDateString = dateString + "T" + timeString.replace("-", ":") + ":00Z";
+  let utcDate = new Date(utcDateString);
+  let offsetDate = new Date();
+  offsetDate.setTime(utcDate.getTime() + utcOffset * 3600000);
+  let offsetDateString = offsetDate.toISOString();
+  offsetDateString = offsetDateString.replace(/T/g, " ").replace(/(:00.000Z)/g, "").replace(/:/g, "-");
+  return offsetDateString;
+}
 
 async function addPageToTimelineData(page) {
   let name = page.file.name;
-  let date = name.slice(0, 10);
-  let time = name.slice(11, 16);
   let index = parseInt(name.slice(17)) - 1;
+  let shidftedDate = shiftDateToTimeZone(name.slice(0, 10), name.slice(11, 16), utcOffset);
+  let date = shidftedDate.slice(0, 10);
+  let time = shidftedDate.slice(11, 16);
   if (!timelineData[date]) {
     timelineData[date] = {};
   }
@@ -23,8 +35,8 @@ async function addPageToTimelineData(page) {
   };
 }
 
-function formatDateString(dateString) {
-  return (new Date(dateString))
+function formatDateString(date) {
+  return (typeof(date) == "string" ? new Date(date) : date)
     .toLocaleDateString(
       'en-GB',
       { day: 'numeric', month: 'short', year: 'numeric' }
@@ -45,7 +57,9 @@ function mdImageToHTMLImage(mdImage) {
 function removeFrontMatter(content) {
   return content.replace(/---.+---\s/s, "")
 }
-
+if (utcOffset != 0) {
+  dv.header(2, `UTC${utcOffset > 0 ? "+" : ""}${utcOffset}`);
+}
 (async () => {
 	for (let i = 0; i < limit; i++) {
 		await addPageToTimelineData(pages[i]);
