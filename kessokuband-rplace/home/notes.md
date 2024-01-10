@@ -1,5 +1,1 @@
----
-parents: 
-tags: 
----
 - When done, go back through and look for any interactions between factions. Add these interactions under `# Relations` in each of the involved factions' files.

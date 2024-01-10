@@ -1,14 +1,10 @@
----
-parents: 
-tags: 
----
 ![[media/archive-banner.png]]
 
 # Chronicles of the Kessoku Krusade
-[[timeline]]
+[[home/timeline|timeline]]
 
-## Key Terms
-- Kessokuband - BtR sub faction composed of Kessokucord and r/kessokuband members.
+## Key Terms (Unless Specified)
+- [[Kessoku Band]] - BtR sub faction composed of Kessokucord and r/kessokuband members.
 - Kessoker - a member of Kessokuband
 - commander - anyone with the “@r/place Commander” role
 - soldier - members of the Kessokucord battalion; i.e. Kessokers who are not commanders.
@@ -33,5 +29,10 @@ tags:
 - If an image is an original source, keep its file extension and rename it using single quotes as above.
 
 ## Content Formatting
-- Names of people are italicised and link to their respective file in `users`. Italics go ***outside*** the link. E.g., *[[Starman_x64]]* (`*[[Starman_x64]]*`).
+- Names of people are *italicised* and link to their respective file in `users`. Italicising asterisks go ***outside*** the link. E.g., *[[Starman_x64]]* (`*[[Starman_x64]]*`).
+- Names of factions are **emboldened** and link to their respective file in `factions`. Emboldening asterisks go **outside*** the link. E.g, **[[Kessoku Band]]** (`**[[Kessoku Band]]**`).
 - Images/videos (including screenshots/screencaps) should always be paired with a link to their source beneath the image: ([Image Source](https://www.put_link_to_image_here)) `([Image Source](https://www.put_link_to_image_here))`
+- Events are to end with a trailing newline/line break.  
+## Link Format
+- Links to users and factions are *short* WikiLinks. E.g., `[[Starman_x64]]`, `[[Kesoku Band]]`.
+- All other links are *absolute* WikiLinks. E.g., `![[media/archive-banner.png]]`, `[[topFolder/nextFolder/target]]`.

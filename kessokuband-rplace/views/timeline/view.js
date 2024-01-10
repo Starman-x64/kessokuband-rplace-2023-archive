@@ -1,7 +1,6 @@
-const limit = input.limit;
-let count = 0;
 let pages = dv.pages('"events"');
 let timelineData = {};
+const limit = input.limit < 0 ? pages.length : input.limit;
 
 async function addPageToTimelineData(page) {
   let name = page.file.name;
@@ -115,5 +114,3 @@ function removeFrontMatter(content) {
 		});
 	});
 })();
-
-console.log(dv.parse("![[2023-07-20 03-49_diplomacy-is-dank.png]]"));
