@@ -2,6 +2,7 @@
 name: Grizzchan
 aliases:
   - Grizzchan
+  - "@grizzchan"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

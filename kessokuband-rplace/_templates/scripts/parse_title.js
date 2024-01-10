@@ -1,7 +1,7 @@
 function modulo(a, b) {
   // if b is 3, then {..., 3, 2, 1, 0, -1, -2, -3, ...} => {..., 0, 2, 1, 0, 2, 1, 0, ...}
   let A = Math.floor(a);
-  return a - b*Math.floor(A/b); 
+  return a - b*Math.floor(A/b);
 }
 
 function parse_title(title) {

@@ -1,1 +1,2 @@
 - When done, go back through and look for any interactions between factions. Add these interactions under `# Relations` in each of the involved factions' files.
+- I'm missing a whole bunch of stuff from ~13:00-21:00 20/07 (UTC+8). What?

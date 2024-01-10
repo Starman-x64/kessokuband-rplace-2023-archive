@@ -2,6 +2,7 @@
 name: Hinochi
 aliases:
   - Hinochi
+  - "@hinochi."
 factions:
   - "[[Kessoku Band]]"
 reddit: 

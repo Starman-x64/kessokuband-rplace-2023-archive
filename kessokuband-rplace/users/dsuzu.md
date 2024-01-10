@@ -2,6 +2,7 @@
 name: dsuzu
 aliases:
   - dsuzu
+  - "@dsuzu"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

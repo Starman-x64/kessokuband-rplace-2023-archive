@@ -2,6 +2,7 @@
 name: SheepCommander
 aliases:
   - SheepCommander
+  - "@sheepcommander_"
 factions:
   - "[[factions/VTubers Place|VTubers Place]]"
 reddit: 

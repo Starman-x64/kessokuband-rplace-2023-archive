@@ -2,6 +2,7 @@
 name: CupOCino
 aliases:
   - CupOCino
+  - "@cupocino"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

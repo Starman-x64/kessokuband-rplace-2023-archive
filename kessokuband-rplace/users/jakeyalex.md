@@ -2,6 +2,7 @@
 name: jakeyalex
 aliases:
   - jakeyalex
+  - "@jakeyalexandre"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

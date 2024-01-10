@@ -2,6 +2,7 @@
 name: Ruskni
 aliases:
   - Ruskni
+  - "@yamezyboi"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

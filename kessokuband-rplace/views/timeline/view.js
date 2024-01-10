@@ -57,13 +57,17 @@ function mdImageToHTMLImage(mdImage) {
 function removeFrontMatter(content) {
   return content.replace(/---.+---\s/s, "")
 }
-if (utcOffset != 0) {
-  dv.header(2, `UTC${utcOffset > 0 ? "+" : ""}${utcOffset}`);
-}
+
 (async () => {
+  pages = pages.sort(page => page.file.name, "ASC");
+  
+  if (utcOffset != 0) {
+    dv.header(2, `UTC${utcOffset > 0 ? "+" : ""}${utcOffset}`);
+  }
 	for (let i = 0; i < limit; i++) {
 		await addPageToTimelineData(pages[i]);
 	}
+  
 	Object.entries(timelineData).forEach(([date, times]) => {
 		let formattedDate = formatDateString(date);
     let dateDiv = dv.el("div", "");

@@ -2,6 +2,7 @@
 name: boog
 aliases:
   - boog
+  - "@petrifiedwood"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

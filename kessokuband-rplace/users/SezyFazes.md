@@ -2,6 +2,7 @@
 name: SezyFazes
 aliases:
   - SezyFazes
+  - "@sezyfazes"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

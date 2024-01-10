@@ -2,6 +2,7 @@
 name: Mukaido
 aliases:
   - Mukaido
+  - "@yunosvenge"
 factions:
   - "[[Kessoku Band]]"
 reddit: 

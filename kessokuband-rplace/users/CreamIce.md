@@ -2,6 +2,7 @@
 name: CreamIce
 aliases:
   - CreamIce
+  - "@creamice_cone"
   - CreamIce (mysteryface)
 factions:
   - "[[Kessoku Band]]"

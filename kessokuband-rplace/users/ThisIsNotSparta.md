@@ -2,6 +2,7 @@
 name: ThisIsNotSparta
 aliases:
   - ThisIsNotSparta
+  - "@ThisIsNotSparta#7558"
 factions:
   - "[[Kessoku Band]]"
 reddit: 
