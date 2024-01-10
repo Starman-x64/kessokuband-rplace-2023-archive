@@ -51,7 +51,14 @@ function formatLocation(location) {
 }
 
 function mdImageToHTMLImage(mdImage) {
-  return mdImage.replace(/!\[\[/gs, `<img src="${this.app.vault.adapter.basePath}\\`).replace(/\]\]/gs, "\" />");
+  let style = mdImage.match(/\|\d+/gs);
+  let styleString = "";
+  if (style) {
+    if(style.length > 0) {
+      styleString = `style="width:${style[0]};`;
+    }
+  }
+  return mdImage.replace(/!\[\[/gs, `<img src="${this.app.vault.adapter.basePath}\\`).replace(/\]\]/gs, `" ${styleString} />`).replace(/\|\d+/gs, "");
 }
 
 function removeFrontMatter(content) {
