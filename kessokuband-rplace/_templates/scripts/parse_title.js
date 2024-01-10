@@ -11,7 +11,7 @@ function parse_title(title) {
   // add correct amount of hours to time to make it utc+0
   timeArray[0] += (new Date()).getTimezoneOffset()/60; 
   // adjust date if needed
-  if (timeArray[0] < 0 || timeArray[0] >= 0) {
+  if (timeArray[0] < 0 || timeArray[0] >= 24) {
     dateArray[2] += timeArray[0] < 0 ? -1 : 1;
     timeArray[0] = modulo(timeArray[0], 24);
     // won't have to worry about incrementing the month or year as it ended on the 25th

@@ -5,6 +5,7 @@ aliases:
   - KessokuBand
 subreddit: r/KessokuBand
 discord: https://discord.gg/kessokuband
+tags:
 ---
 # Relations
 ## [[factions/VTubers Place]]

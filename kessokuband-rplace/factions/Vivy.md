@@ -4,6 +4,7 @@ aliases:
   - Vivy
   - r/Vivy
 subreddit: r/Vivy
-discord:
+discord: 
+tags:
 ---
 # Relations

@@ -6,4 +6,6 @@ factions:
   - "[[Kessoku Band]]"
 reddit: 
 discord: (deleted)
+tags:
+  - "#discord-deleted"
 ---

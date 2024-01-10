@@ -4,6 +4,7 @@ aliases:
   - The Void
   - Void
 subreddit: 
-discord:
+discord: 
+tags:
 ---
 # Relations

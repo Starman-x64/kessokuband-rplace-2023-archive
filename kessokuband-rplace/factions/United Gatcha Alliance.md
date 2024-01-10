@@ -4,6 +4,7 @@ aliases:
   - United Gatcha Alliance
   - UGA
 subreddit: 
-discord:
+discord: 
+tags:
 ---
 # Relations

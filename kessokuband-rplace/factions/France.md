@@ -4,6 +4,7 @@ aliases:
   - France
   - French
 subreddit: 
-discord:
+discord: 
+tags:
 ---
 # Relations

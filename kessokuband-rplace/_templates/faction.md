@@ -3,6 +3,7 @@ name: <% tp.file.title%>
 aliases:
   - <% tp.file.title%>
 subreddit: 
-discord:
+discord: 
+tags:
 ---
 # Relations

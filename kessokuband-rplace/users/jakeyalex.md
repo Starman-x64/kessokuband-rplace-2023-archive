@@ -6,4 +6,5 @@ factions:
   - "[[Kessoku Band]]"
 reddit: 
 discord: "@jakeyalexandre"
+tags:
 ---

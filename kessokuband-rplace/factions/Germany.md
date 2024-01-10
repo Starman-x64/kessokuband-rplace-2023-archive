@@ -4,6 +4,7 @@ aliases:
   - Germany
   - German
 subreddit: 
-discord:
+discord: 
+tags:
 ---
 # Relations
