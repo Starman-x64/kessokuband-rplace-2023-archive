@@ -94,13 +94,13 @@ function removeFrontMatter(content) {
           
           locationDiv.append(eventDiv);
 
-					let contentParagraph = dv.paragraph(content);
-          let sourceSpan = dv.span(`[[${event.path}|(Source)]]`);
-          contentParagraph.innerHTML = contentParagraph.innerHTML.replace("%20", " ");
-          sourceSpan.style.fontSize = "50%"; 
-          sourceSpan.style.lineHeight = "50%"; 
+					let contentParagraph = dv.paragraph(`${content}<span style="font-size:75%; line-height:75%;">[[${event.path}|(Source)]]</span>`);
+          // let sourceSpan = dv.span(`[[${event.path}|(Source)]]`);
+          // contentParagraph.innerHTML = contentParagraph.innerHTML.replace("%20", " ");
+          // sourceSpan.style.fontSize = "50%"; 
+          // sourceSpan.style.lineHeight = "50%"; 
 					eventDiv.appendChild(contentParagraph);
-					eventDiv.appendChild(sourceSpan);
+					// eventDiv.appendChild(sourceSpan);
 					//div.style.padding = "0.025px 10px 0.025px 10px";
 					//paragraph.style.padding = "0";
 					//markdown-embed-title
