@@ -28,8 +28,13 @@ let index =
 	.length + 1;
 titleString = `${titleString} ${index}`;
 
-let content = await dv.io.load(dv.current().file.path);
-//console.log(content.replace(/.+# Contents\n/s, ""));
+let content = (await dv.io.load(dv.current().file.path)).replace(/.+# Contents\n/s, "");
+//console.log(content);
+
+let location = dv.current().location ? dv.current().location : "\\#reddit-rplace"
+let factions = dv.current().factions ? dv.current().factions : [dv.fileLink("factions/Kessoku Band")];
+let parents = dv.current().parents ? dv.current().parents : [];
+let tags = dv.current().tags ? [...new Set(["#event"].concat(dv.current().tags))] : ["#event"];
 
 dv.paragraph(`There ${index == 1 ? "is" : "are"} ${index} event${index == 1 ? "" : "s"} occurring on ${dateString} at ${timeString.replace(/-/g, ":")} UTC${timezone > 0 ? "+" : ""}${timezone}.`)
 dv.paragraph(`Button will create the file \`events/${titleString}.md\` with the following YAML attributes:`);
@@ -37,36 +42,27 @@ dv.paragraph(
 `
 \`\`\`
 ---
-location: ${dv.current().location} 
-factions:${
-	dv.current().factions ? 
-	dv.current().factions.map(f => `\n  - "${f}"`).join("") :
-	""
-}
-parents:${
-	dv.current().parents ? 
-	dv.current().parents.map(f => `\n  - "${f}"`).join("") :
-	""
-}
-tags:${
-	dv.current().tags ? 
-	["event"].concat(dv.current().tags).map(f => `\n- "#${f}"`).join("") :
-	"\n- \"#event\""
-}
+location: ${location} 
+factions:${factions ? factions.map(f => `\n  - "${f}"`).join("") : ""}
+parents:${parents ? parents.map(f => `\n  - "${f}"`).join("") : ""}
+tags:${tags.map(f => `\n  - "${f}"`).join("")}
 ---
 \`\`\`
 `);
-//console.log(dv.current());
-
-dv.paragraph(createButton({
-	app, 
-	el: this.container, 
-	args: {
-		name: "Create Event", 
-		type: `note(zzztest note, split) template`, 
-		action: "event",
-	}
-}));
+dv.paragraph("and the following content:");
+console.log(dv.current());
+setTimeout(() => {
+	dv.paragraph("`````\n" + content + "\n`````");
+	dv.paragraph(createButton({
+		app, 
+		el: this.container, 
+		args: {
+			name: "Create Event", 
+			type: `note(zzztest note, split) template`, 
+			action: "event",
+		}
+	}));
+}, 1000);
 ```
 # Contents
 This is a test.
