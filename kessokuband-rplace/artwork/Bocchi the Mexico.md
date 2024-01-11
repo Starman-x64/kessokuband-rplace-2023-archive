@@ -3,25 +3,23 @@ name: Bocchi the Mexico
 aliases:
   - Bocchi the Mexico
   - Mexican Bocchi
-parent factions:
+  - Bocchified Mexico
+alt: Bocchi as the country Mexico.
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
   - "[[factions/BocchiTheRock|BocchiTheRock]]"
   - "[[factions/PlaceMexico|PlaceMexico]]"
-authors: 
-final version: "![[media/artwork/bocchi-the-mexico_FINAL.png|300]]"
-final coordinates: (152, -892)
-atlas link: https://2023.place-atlas.stefanocoding.me/#1056
-on final canvas: true
+contributors: 
+finalVersion: "![[media/artwork/bocchi-the-mexico_FINAL.png]]"
+finalCoordinates: (152, -892)
+atlasLink: https://2023.place-atlas.stefanocoding.me/#1056/T
+onFinalCanvas: true
 tags:
   - "#artwork"
 ---
-## Description
+## About
 
 
-## Versions
-___
-### 1
-
-___
+## Versions 
 ### Final
 ![[media/artwork/bocchi-the-mexico_FINAL.png|300]]

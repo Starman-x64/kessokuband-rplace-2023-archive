@@ -4,7 +4,7 @@ aliases:
   - Ryo Group
   - Weed LLC
   - Weeders
-parent factions:
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
 tags:
   - "#subfaction"

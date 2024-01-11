@@ -3,7 +3,7 @@ name: Bocchi Group
 aliases:
   - Bocchi Group
   - Fr Fr Formation
-parent factions:
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
 tags:
   - "#subfaction"

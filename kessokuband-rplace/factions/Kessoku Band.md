@@ -8,9 +8,9 @@ discord server: https://discord.gg/kessokuband
 tags:
   - "#faction"
 ---
-# Relations
+# Relations  
 
 # Artwork
 ```dataviewjs
-await dv.view("views/faction artworks", { limit: -1, thisFilePath: this.currentFilePath });
+await dv.view("views/faction artworks", { thisdv: this, limit: -1, thisFilePath: this.currentFilePath });
 ```

@@ -4,28 +4,27 @@ aliases:
   - Kessoku Band Banner
   - the banner
   - banner
-parent factions:
+alt: Bocchi, Nijika, Ryo, and Kita mendako in a row, surrounded by trees above the text "KESSOKU BAND".
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
   - "[[factions/BocchiTheRock|BocchiTheRock]]"
   - "[[factions/Place Trees|Place Trees]]"
   - "[[factions/ENS Rennes|ENS Rennes]]"
-authors:
+contributors:
   - "[[users/dsuzu|dsuzu]]"
-final version: "![[media/artwork/kessoku-band-banner_FINAL.png|300]]"
-final coordinates: (630, -358)
-atlas link: https://2023.place-atlas.stefanocoding.me/#355/T
-on final canvas: true
+finalVersion: "![[media/artwork/kessoku-band-banner_FINAL.png]]"
+finalCoordinates: (630, -358)
+atlasLink: https://2023.place-atlas.stefanocoding.me/#355/T
+onFinalCanvas: true
 tags:
   - "#artwork"
 ---
-## Description
+## About
 
 
 ## Versions
-___
-### 1
+### v1
 ![[events/2023-07-20 03-20 1|2023-07-20 03-20 1]] 
 ![[media/artwork/kessoku-band-banner_v1.png]]
-___
 ### Final
 ![[media/artwork/kessoku-band-banner_FINAL.png|300]]

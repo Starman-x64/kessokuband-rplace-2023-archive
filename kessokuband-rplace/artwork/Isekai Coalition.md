@@ -3,19 +3,20 @@ name: Isekai Coalition
 aliases:
   - Isekai Coalition
   - Isekai Bocchi
-parent factions:
+alt: A group of allied isekai anime chracters, including Bocchi.
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
   - "[[factions/BocchiTheRock|BocchiTheRock]]"
   - "[[factions/Isekai Coalition|Isekai Coalition]]"
-authors: 
-final version: "![[media/artwork/isekai-coalition_FINAL.png|500]]"
-final coordinates: (423, -988)
-atlas link: https://2023.place-atlas.stefanocoding.me/#2688
-on final canvas: true
+contributors: 
+finalVersion: "![[media/artwork/isekai-coalition_FINAL.png]]"
+finalCoordinates: (423, -988)
+atlasLink: https://2023.place-atlas.stefanocoding.me/#2688/T
+onFinalCanvas: true
 tags:
   - "#artwork"
 ---
-## Description
+## About
 A group of allied isekai anime characters in close proximity to one another including:  
 - Aqua: Konosuba  
 - Emilia: Re:Zero  
@@ -29,6 +30,5 @@ A group of allied isekai anime characters in close proximity to one another incl
 - Bocchi: Bocchi the Rock (despite not being an isekai anime)
 
 ## Versions
-___
 ### Final
 ![[media/artwork/isekai-coalition_FINAL.png|500]]

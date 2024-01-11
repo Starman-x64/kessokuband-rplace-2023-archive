@@ -3,7 +3,7 @@ name: Buh Group
 aliases:
   - Buh Group
   - Buh
-parent factions:
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
 tags:
   - "#subfaction"

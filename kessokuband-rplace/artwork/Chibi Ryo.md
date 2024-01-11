@@ -2,24 +2,24 @@
 name: Chibi Ryo
 aliases:
   - Chibi Ryo
-parent factions:
+alt: Ryo in the style of a chibi Touhou character.
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
   - "[[factions/BocchiTheRock|BocchiTheRock]]"
   - "[[factions/Touhou|Touhou]]"
-authors: 
-final version: "![[media/artwork/chibi-ryo_FINAL.png|300]]"
-final coordinates: (1364, 349)
-atlas link: https://2023.place-atlas.stefanocoding.me/#2238
-on final canvas: true
+contributors: 
+finalVersion: "![[media/artwork/chibi-ryo_FINAL.png]]"
+finalCoordinates: (1364, 349)
+atlasLink: https://2023.place-atlas.stefanocoding.me/#2238/T
+onFinalCanvas: true
 tags:
   - "#artwork"
   - "#sub-artwork"
 ---
-## Description
+## About
 Sub-artwork of [[artwork/Touhou Hijack|Touhou Hijack]]:
 ![[media/artwork/touhou-hijack_FINAL.png|200]]
 
 ## Versions
-___
 ### Final
 ![[media/artwork/chibi-ryo_FINAL.png|300]]

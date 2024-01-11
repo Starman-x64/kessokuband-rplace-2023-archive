@@ -2,21 +2,18 @@
 name: ENS Mural
 aliases:
   - ENS Mural
-parent factions:
+alt: A small, white ENS logo on a blue background.
+parentFactions:
   - "[[factions/ENS Rennes|ENS Rennes]]"
-authors: 
-final version: 
-final coordinates: (667, -353)
-atlas link: https://2023.place-atlas.stefanocoding.me/#1896/T
-on final canvas: true
+contributors: 
+finalVersion: 
+finalCoordinates: (667, -353)
+atlasLink: https://2023.place-atlas.stefanocoding.me/#1896/T
+onFinalCanvas: true
 tags:
   - "#artwork"
 ---
-## Description
+## About
 
 
 ## Versions
-___
-### 1
-
-___

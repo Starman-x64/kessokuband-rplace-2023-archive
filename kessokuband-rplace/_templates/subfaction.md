@@ -2,7 +2,7 @@
 name: <% tp.file.title%>
 aliases:
   - <% tp.file.title%>
-parent factions: 
+parentFactions: 
 tags:
   - "#subfaction"
 ---

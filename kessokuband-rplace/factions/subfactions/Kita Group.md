@@ -3,7 +3,7 @@ name: Kita Group
 aliases:
   - Kita Group
   - Holy Kingdom of KitKat
-parent factions:
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
 tags:
   - "#subfaction"

@@ -2,20 +2,21 @@
 name: ENS Bocchinoko
 aliases:
   - ENS Bocchinoko
-parent factions:
+alt: Bocchinoko on an ENS mural.
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
   - "[[factions/BocchiTheRock|BocchiTheRock]]"
   - "[[factions/ENS Rennes|ENS Rennes]]"
-authors:
+contributors:
   - "[[users/Hinochi|Hinochi]]"
-final version: "![[media/artwork/ens-bocchinoko_FINAL.png|500]]"
-final coordinates: (1452, 17)
-atlas link: https://2023.place-atlas.stefanocoding.me/#2862
-on final canvas: true
+finalVersion: "![[media/artwork/ens-bocchinoko_FINAL.png]]"
+finalCoordinates: (1452, 17)
+atlasLink: https://2023.place-atlas.stefanocoding.me/#2862/T
+onFinalCanvas: true
 tags:
   - "#artwork"
 ---
-## Description
+## About
 
 
 ## Versions

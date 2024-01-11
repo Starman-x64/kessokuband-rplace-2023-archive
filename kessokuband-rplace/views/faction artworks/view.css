@@ -29,6 +29,7 @@
   display: flex;
   width: 50%;
   justify-content: center;
+  position: relative;
 }
 
 
@@ -42,10 +43,31 @@
 
 .artwork-aliases {
   font-style: italic;
+  color: color-mix(in srgb, var(--text-normal), transparent 50%);
   font-size: 75%;
   line-height: 75%;
+  margin-bottom: 5px;
 }
 
 .artwork-title {
   margin: 0 0 10px 0;
+}
+
+.custom-icon {
+  font-weight: normal;
+}
+
+.artwork-md-link {
+  position: absolute;
+  flex-grow: 0;
+  top: 0;
+  right: 0;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.artwork-md-link a {
+  color: var(--text-normal) !important;
 }

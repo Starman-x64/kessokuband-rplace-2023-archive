@@ -2,20 +2,17 @@
 name: <% tp.file.title%>
 aliases:
   - <% tp.file.title%>
-parent factions: 
-authors: 
-final version: 
-final coordinates: 
-atlas link: 
-on final canvas: 
+alt: 
+parentFactions: 
+contributors: 
+finalVersion: 
+finalCoordinates: 
+atlasLink: 
+onFinalCanvas: 
 tags:
   - "#artwork"
 ---
-## Description
+## About
 
 
 ## Versions
-___
-### 1
-
-___

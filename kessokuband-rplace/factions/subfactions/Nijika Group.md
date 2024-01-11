@@ -4,7 +4,7 @@ aliases:
   - Nijika Group
   - The Dorito Crusaders
   - Dorito Group
-parent factions:
+parentFactions:
   - "[[factions/Kessoku Band|Kessoku Band]]"
 tags:
   - "#subfaction"
