@@ -1,7 +1,17 @@
 ![[media/archive-banner.png]]
 
 # Chronicles of the Kessoku Krusade
-[[home/timeline|timeline]]
+## Relevant Factions
+```dataview
+LIST
+FROM "factions"
+WHERE !contains(file.path, "subfactions")
+```
+## [[home/timeline|Timeline of Events]]
+```dataviewjs
+await dv.view("views/timeline", { limit: 10, utcOffset: 0 });
+```
+
 
 ## Key Terms (Unless Specified)
 - [[Kessoku Band]] - BtR sub faction composed of Kessokucord and r/kessokuband members.

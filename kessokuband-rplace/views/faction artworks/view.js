@@ -35,7 +35,7 @@ function linkMake(pathInVault, text) {
   a.classList.add("internal-link");
   console.log(a);
   a.appendChild(div);
-  
+
   // setTimeout(() => {
   //   div.firstChild.firstChild.classList.remove("internal-link");
   // }, 1000);
@@ -52,66 +52,86 @@ function linkMake(pathInVault, text) {
 (async () => {
   pages = pages.sort(page => page.file.name, "ASC");
   let data = {};
-  
+
   for (let i = 0; i < limit; i++) {
     let page = pages[i];
 		let content = await dv.io.load(page.file.path);
     page.content = replaceMdImages(content, [page.alt]);
     data[page.name] = page;
 	}
-  
+
   pages.forEach((page) => {
-    let artworkDiv = dv.el("div", "");
-    let leftDiv = dv.el("div", "");
-    let rightDiv = dv.el("div", "");
+    let artworkContainer = thisdv.container.createEl("div", { cls: ["artwork-container"] });
+    // let tableContainer = dv.el("table", "");
+    let leftDiv = thisdv.container.createEl("div", { cls: ["leftDiv"] });
+    let rightDiv = thisdv.container.createEl("div", { cls: ["rightDiv"] });
     let image = page.content.match(/finalVersion:.+$/m)[0].replace(/(finalVersion: ")|("$)/gm, "");
     let imageDiv = dv.el("div", image);
     let mdLinkDiv = dv.el("div", `[[${page.file.link.path}|:luc_link:]]`);
+
+    imageDiv.classList.add("artwork-img");
     mdLinkDiv.classList.add("markdown-embed-link");
+    mdLinkDiv.classList.add("custom-icon");
+    mdLinkDiv.classList.add("artwork-md-link");
+    
     // mdLinkDiv.ariaLabel = "Open link";
     // mdLinkDiv.href = `${this.app.vault.adapter.basePath}/home/index`;
     //let imgDiv = dv.el("div", "");
-    
-    
-    let titleDiv = dv.el("div", "");
-    let aliasesDiv = dv.el("div", "");
-    let descriptionDiv = dv.el("div", "");
-    let parentFactionsDiv = dv.el("div", "");
-    let contributorsDiv = dv.el("div", "");
-    let finalCoordsDiv = dv.el("div", "");
-    
-    aliasesDiv.appendChild(dv.el("div", page.aliases ? page.aliases.filter(a => a != page.name).map(a => `${a}`).join(", ") : ""));
-    descriptionDiv.appendChild(dv.span(page.alt ? page.alt : "No Description"));
-    parentFactionsDiv.appendChild(dv.span("**Factions:**"));
-    parentFactionsDiv.appendChild(dv.el("div", page.parentFactions ? page.parentFactions.map(a => `- **${a}**`).join("\n") : "- None Listed"));
-    contributorsDiv.appendChild(dv.span("**Contributors:**"));
-    contributorsDiv.appendChild(dv.el("div", page.contributors ? page.contributors.map(a => `- *${a}*`).join("\n") : "- No Individuals Listed"));
-    finalCoordsDiv.appendChild(dv.span("**Final Coordinates:** "));
-    finalCoordsDiv.appendChild(dv.el("span", page.finalCoordinates ? `${page.atlasLink ? `[${page.finalCoordinates}](${page.atlasLink})` : page.finalCoordinates}` : "- Not Listed"));
+
+    // let tableRow = dv.el("tr", "");
+    // let tableLeft = dv.el("td", "");
+    // let tableRight = dv.el("td", "");
 
 
-    //titleDiv.appendChild(dv.header(3, `[[${page.file.link.path}|${page.name}]]`));
-    titleDiv.appendChild(dv.header(3, page.name));
-    titleDiv.appendChild(aliasesDiv);
-    titleDiv.appendChild(descriptionDiv);
-    leftDiv.appendChild(titleDiv);
-    leftDiv.appendChild(parentFactionsDiv);
-    leftDiv.appendChild(contributorsDiv);
-    leftDiv.appendChild(finalCoordsDiv);
+    let titleDiv = thisdv.container.createEl("div", { cls: ["artwork-title"] });
+    let aliasesDiv = thisdv.container.createEl("div", { cls: ["artwork-aliases"] });
+    let descriptionDiv = thisdv.container.createEl("div", { cls: [] });
+    let parentFactionsDiv = thisdv.container.createEl("div", { cls: [] });
+    let contributorsDiv = thisdv.container.createEl("div", { cls: [] });
+    let finalCoordsDiv = thisdv.container.createEl("div", { cls: [] });
+
+    aliasesDiv.append(dv.el("div", page.aliases ? page.aliases.filter(a => a != page.name).map(a => `${a}`).join(", ") : ""));
+    descriptionDiv.append(dv.span(page.alt ? page.alt : "No Description"));
+    parentFactionsDiv.append(dv.span("**Factions:**"));
+    parentFactionsDiv.append(dv.el("div", page.parentFactions ? page.parentFactions.map(a => `- **${a}**`).join("\n") : "- None Listed"));
+    contributorsDiv.append(dv.span("**Contributors:**"));
+    contributorsDiv.append(dv.el("div", page.contributors ? page.contributors.map(a => `- *${a}*`).join("\n") : "- No Individuals Listed"));
+    finalCoordsDiv.append(dv.span("**Final Coordinates:** "));
+    finalCoordsDiv.append(dv.el("span", page.finalCoordinates ? `${page.atlasLink ? `[${page.finalCoordinates}](${page.atlasLink})` : page.finalCoordinates}` : "- Not Listed"));
+
+
+    //titleDiv.append(dv.header(3, `[[${page.file.link.path}|${page.name}]]`));
+    titleDiv.append(dv.header(3, page.name));
+    titleDiv.append(aliasesDiv);
+    titleDiv.append(descriptionDiv);
+    leftDiv.append(titleDiv);
+    leftDiv.append(parentFactionsDiv);
+    leftDiv.append(contributorsDiv);
+    leftDiv.append(finalCoordsDiv);
+
+    rightDiv.append(imageDiv);
+
+    // tableLeft.append(leftDiv);
+    // tableRight.append(rightDiv);
     
-    rightDiv.appendChild(mdLinkDiv);
-    rightDiv.appendChild(imageDiv);
-    artworkDiv.appendChild(leftDiv);
-    artworkDiv.appendChild(rightDiv);
+    // tableRow.append(tableLeft);
+    // tableRow.append(tableRight);
+    // tableContainer.append(tableRow);
+    // artworkContainer.append(tableContainer);
+
+    artworkContainer.append(leftDiv);
+    artworkContainer.append(rightDiv);
+    artworkContainer.append(mdLinkDiv);
+    thisdv.container.append(artworkContainer);
     
-    mdLinkDiv.classList.add("custom-icon");
-    mdLinkDiv.classList.add("artwork-md-link");
-    titleDiv.classList.add("artwork-title");
-    aliasesDiv.classList.add("artwork-aliases");
-    leftDiv.classList.add("leftDiv");
-    rightDiv.classList.add("rightDiv");
-    imageDiv.classList.add("artwork-img");
-    artworkDiv.classList.add("artwork-div");
+    // setTimeout(() => {rightDiv.style.height = `${leftDiv.clientHeight - 50}px`;}, 1000);
+    let pxPerEm = parseFloat(getComputedStyle(thisdv.container).fontSize);
+    artworkContainer.style.height = `${(leftDiv.clientHeight - 50) / pxPerEm}em`;
+    // tableLeft.classList.add("tableLeft");
+    // tableRight.classList.add("tableRight");
+    // tableContainer.classList.add("tableContainer");
+
+    //thisdv.container.classList.add("artworks-view");
   });
 
 })();
