@@ -13,7 +13,7 @@ function incrementTime(delta) {
 	console.log(dv.current().file.path);
 	let newDate = currentDate;
 	newDate.setTime(currentDate.getTime() + delta.hours * 3600_000 + delta.minutes * 60_000);
-	update("newFileDate", newDate.toISOString(), createEventContents.file.path);	
+	//update("newFileDate", newDate.toISOString(), createEventContents.file.path);
 }
 
 let buttons = [

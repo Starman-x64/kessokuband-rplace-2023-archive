@@ -1,6 +1,4 @@
 ---
-tags:
-  - "#artwork"
 name: Bocchi the Trash Can
 aliases:
   - Bocchi the Trash Can
@@ -15,6 +13,8 @@ finalVersion: "![[media/artwork/bocchi-the-trash-can_FINAL.png]]"
 finalCoordinates: (262, -867)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#1124/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
 ---
 ## About
 An icon featuring Bocchi in a trash can.

@@ -1,6 +1,4 @@
 ---
-tags:
-  - "#artwork"
 name: JoJo Bocchi
 aliases:
   - JoJo Bocchi
@@ -14,6 +12,8 @@ finalVersion: "![[media/artwork/jojo-bocchi_FINAL.png]]"
 finalCoordinates: (-1199, -77)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#4188/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
 ---
 ## About
 

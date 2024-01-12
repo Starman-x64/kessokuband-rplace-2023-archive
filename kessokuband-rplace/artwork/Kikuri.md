@@ -1,6 +1,4 @@
 ---
-tags:
-  - "#artwork"
 name: Kikuri
 aliases:
   - Kikuri
@@ -15,6 +13,8 @@ finalVersion: "![[media/artwork/kikuri_FINAL.png]]"
 finalCoordinates: (585, 886)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#1745/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
 ---
 ## About
 

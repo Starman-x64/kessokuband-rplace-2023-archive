@@ -1,6 +1,4 @@
 ---
-tags:
-  - "#artwork"
 name: Touhou Hijack
 aliases:
   - Touhou Hijack
@@ -15,6 +13,8 @@ finalVersion: "![[media/artwork/touhou-hijack_FINAL.png]]"
 finalCoordinates: (1333, 310)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#2077/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
 ---
 ## About
 

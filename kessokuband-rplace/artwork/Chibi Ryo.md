@@ -1,7 +1,4 @@
 ---
-tags:
-  - "#artwork"
-  - "#sub-artwork"
 name: Chibi Ryo
 aliases:
   - Chibi Ryo
@@ -15,6 +12,9 @@ finalVersion: "![[media/artwork/chibi-ryo_FINAL.png]]"
 finalCoordinates: (1364, 349)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#2238/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
+  - "#sub-artwork"
 ---
 ## About
 Sub-artwork of [[artwork/Touhou Hijack|Touhou Hijack]]:

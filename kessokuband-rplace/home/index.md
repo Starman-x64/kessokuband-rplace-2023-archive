@@ -18,7 +18,7 @@ await dv.view("views/timeline", { limit: 10, utcOffset: 0 });
 - Kessoker - a member of Kessokuband
 - commander - anyone with the “@r/place Commander” role
 - soldier - members of the Kessokucord battalion; i.e. Kessokers who are not commanders.
-- events highlighted yellow - major r/place event which are not directly related to Kessokuband
+- ~~events highlighted yellow - major r/place event which are not directly related to Kessokuband~~
 
 ## Time Format
 - Times in UTC+0. This means that r/place began at 13:00 20/07/2023
@@ -26,7 +26,7 @@ await dv.view("views/timeline", { limit: 10, utcOffset: 0 });
 - Dates **within** files are written in `DD/MM/YYYY`, with the year only if necessary. If the name of the month is be used, the first three letters are used, with the order remaining day-month-year (e.g., 20 Jul 2023)
 
 ## File Name Format
-- **File names** are times written `YYYY-MM-DD hh-mm n`, e.g. `2023-07-20 06-06`. `n` is only included when multiple things occur in the same minute, e.g. `2023-07-20 06-15 1` and `2023-07-20 06-15 2`.
+- **File names** are times written `YYYY-MM-DD hh-mm n`, e.g. `2023-07-20 06-06`. ~~`n` is only included when multiple things occur in the same minute, e.g. `2023-07-20 06-15 1` and `2023-07-20 06-15 2`.~~ `n` has been replaced with the `sortOrder` property in the front matter in each attribute. Additionally, the date and time of each event is now stored in the front matter under `dateTime`.
 ### Image Files
 - Image files of images in events should be in the format `event_title`.
 	- `event` is the name of the event file the image is included in (`YYYY-MM-DD hh-mm n`)
@@ -46,3 +46,4 @@ await dv.view("views/timeline", { limit: 10, utcOffset: 0 });
 ## Link Format
 - Links to users and factions are *short* WikiLinks. E.g., `[[Starman_x64]]`, `[[Kesoku Band]]`.
 - All other links are *absolute* WikiLinks. E.g., `![[media/archive-banner.png]]`, `[[topFolder/nextFolder/target]]`.
+- External links to Discord have the `https` replaced with `discord`. E.g., `https://discord.com/channels/...` → `discord://discord.com/channels/...`

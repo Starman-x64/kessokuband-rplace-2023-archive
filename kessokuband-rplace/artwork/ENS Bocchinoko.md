@@ -1,6 +1,4 @@
 ---
-tags:
-  - "#artwork"
 name: ENS Bocchinoko
 aliases:
   - ENS Bocchinoko
@@ -15,6 +13,8 @@ finalVersion: "![[media/artwork/ens-bocchinoko_FINAL.png]]"
 finalCoordinates: (1452, 17)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#2862/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
 ---
 ## About
 

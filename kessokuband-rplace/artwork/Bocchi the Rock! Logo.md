@@ -1,6 +1,4 @@
 ---
-tags:
-  - "#artwork"
 name: Bocchi the Rock! Logo
 aliases:
   - Bocchi the Rock! Logo
@@ -15,6 +13,8 @@ finalVersion: "![[media/artwork/bocchi-the-rock-logo_FINAL.png]]"
 finalCoordinates: (277, -828)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#2625/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
 ---
 ## About
 

@@ -1,6 +1,4 @@
 ---
-tags:
-  - "#artwork"
 name: Isekai Coalition
 aliases:
   - Isekai Coalition
@@ -15,6 +13,8 @@ finalVersion: "![[media/artwork/isekai-coalition_FINAL.png]]"
 finalCoordinates: (423, -988)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#2688/T
 onFinalCanvas: true
+tags:
+  - "#artwork"
 ---
 ## About
 A group of allied isekai anime characters in close proximity to one another including:
