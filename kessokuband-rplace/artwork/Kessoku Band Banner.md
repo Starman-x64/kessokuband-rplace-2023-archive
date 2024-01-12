@@ -1,4 +1,6 @@
 ---
+tags:
+  - "#artwork"
 name: Kessoku Band Banner
 aliases:
   - Kessoku Band Banner
@@ -16,15 +18,12 @@ finalVersion: "![[media/artwork/kessoku-band-banner_FINAL.png]]"
 finalCoordinates: (630, -358)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#355/T
 onFinalCanvas: true
-tags:
-  - "#artwork"
 ---
 ## About
 
-
 ## Versions
 ### v1
-![[events/2023-07-20 03-20 1|2023-07-20 03-20 1]] 
+![[events/2023-07-20 03-20 1|2023-07-20 03-20 1]]
 ![[media/artwork/kessoku-band-banner_v1.png]]
 ### Final
 ![[media/artwork/kessoku-band-banner_FINAL.png|300]]

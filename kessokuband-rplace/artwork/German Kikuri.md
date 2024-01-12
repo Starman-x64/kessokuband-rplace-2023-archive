@@ -1,4 +1,6 @@
 ---
+tags:
+  - "#artwork"
 name: German Kikuri
 aliases:
   - German Kikuri
@@ -13,11 +15,8 @@ finalVersion: "![[media/artwork/german-kikuri_FINAL.png]]"
 finalCoordinates: (-53, -939)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#1799/T
 onFinalCanvas: true
-tags:
-  - "#artwork"
 ---
 ## About
-
 
 ## Versions
 ### Final

@@ -1,4 +1,6 @@
 ---
+tags:
+  - "#artwork"
 name: Bocchi the Mexico
 aliases:
   - Bocchi the Mexico
@@ -14,12 +16,9 @@ finalVersion: "![[media/artwork/bocchi-the-mexico_FINAL.png]]"
 finalCoordinates: (152, -892)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#1056/T
 onFinalCanvas: true
-tags:
-  - "#artwork"
 ---
 ## About
 
-
-## Versions 
+## Versions
 ### Final
 ![[media/artwork/bocchi-the-mexico_FINAL.png|300]]

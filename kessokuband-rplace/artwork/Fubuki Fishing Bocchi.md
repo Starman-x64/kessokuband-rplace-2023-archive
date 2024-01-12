@@ -1,4 +1,6 @@
 ---
+tags:
+  - "#artwork"
 name: Fubuki Fishing Bocchi
 aliases:
   - Fubuki Fishing Bocchi
@@ -13,8 +15,6 @@ finalVersion: "![[media/artwork/fubuki-fishing-bocchi_FINAL.png]]"
 finalCoordinates: (-619, -300)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#4314/T
 onFinalCanvas: true
-tags:
-  - "#artwork"
 ---
 ## About
 The Hololive affiliated VTuber Shirakami Fubuki fishing a Bocchi blob.

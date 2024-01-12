@@ -1,4 +1,6 @@
 ---
+tags:
+  - "#artwork"
 name: Professor Kita and Nijika
 aliases:
   - Professor Kita and Nijika
@@ -12,11 +14,8 @@ finalVersion: "![[media/artwork/professor-kita-and-nijika_FINAL.png]]"
 finalCoordinates: (1353, 208)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#2182/T
 onFinalCanvas: true
-tags:
-  - "#artwork"
 ---
 ## About
-
 
 ## Versions
 ### Final

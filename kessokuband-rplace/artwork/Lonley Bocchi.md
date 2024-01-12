@@ -1,4 +1,6 @@
 ---
+tags:
+  - "#artwork"
 name: Lonley Bocchi
 aliases:
   - Lonley Bocchi
@@ -11,11 +13,8 @@ finalVersion: "![[media/artwork/lonely-bocchi_FINAL.png]]"
 finalCoordinates: (-69, 861)
 atlasLink: https://2023.place-atlas.stefanocoding.me/#2242/T
 onFinalCanvas: true
-tags:
-  - "#artwork"
 ---
 ## About
-
 
 ## Versions
 ### Final
